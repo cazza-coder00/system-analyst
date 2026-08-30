@@ -1,8 +1,9 @@
 # backend/app/models/__init__.py
-# (Mantenha as importações dos Módulos 1 e 2)
+# (Mantenha as importações dos Módulos 1, 2 e 3)
 
 from .iniciacao import Stakeholder, Glossario, Requisito, UserStory
 from .modelagem import ProcessoBPMN, TelaWireframe
-
-# Adicione os imports do Módulo 3
 from .execucao import CasoTeste, MudancaEscopo
+
+# Adicione os imports do Módulo 4
+from .encerramento import TermoAceite, LicaoAprendida

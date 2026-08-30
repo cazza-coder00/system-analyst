@@ -1,5 +1,5 @@
 # backend/app/schemas/__init__.py
-# (Mantenha os imports do Módulo 1 e 2)
+# (Mantenha os imports dos Módulos 1, 2 e 3)
 
 from .iniciacao import (
     StakeholderCreate, StakeholderResponse,
@@ -13,8 +13,13 @@ from .modelagem import (
     TelaWireframeCreate, TelaWireframeResponse
 )
 
-# Adicione os imports do Módulo 3
 from .execucao import (
     CasoTesteCreate, CasoTesteResponse,
     MudancaEscopoCreate, MudancaEscopoResponse
+)
+
+# Adicione os imports do Módulo 4
+from .encerramento import (
+    TermoAceiteCreate, TermoAceiteResponse,
+    LicaoAprendidaCreate, LicaoAprendidaResponse
 )
