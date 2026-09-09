@@ -5,6 +5,8 @@ import { StakeholderForm } from './components/StakeholderForm';
 import { StakeholdersList } from './components/StakeholdersList';
 import { RequisitosManager } from './components/RequisitosManager';
 import { UserStoriesManager } from './components/UserStoriesManager';
+import { ModelagemManager } from './components/ModelagemManager';
+import { ExecucaoManager } from './components/ExecucaoManager';
 
 function App() {
   const [refreshKey, setRefreshKey] = useState(0);
@@ -17,6 +19,8 @@ function App() {
       <StakeholdersList key={refreshKey} />
       <RequisitosManager />
       <UserStoriesManager />
+      <ModelagemManager />
+      <ExecucaoManager />
     </main>
   );
 }
